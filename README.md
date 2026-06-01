@@ -13,11 +13,11 @@ Para descargar el código se puede utilizar o bien git, o bien la interfaz de gi
   
   **Con esto se abrió una terminal (sea con o sin IDE) en la nueva carpeta. En dicha terminal, que ya tiene abierta la carpeta correcta, ejecutar los siguientes comandos (de esta sección y de las demás secciones).**
   
-  - Clonar el repositorio
+  - Clonar el repositorio:
     `git clone git@github.com:Aldy09/sw-modelos
 .git .`
     Esto clona el repositorio, en la carpeta `repo-modelos/`.
-  - Traer los últimos cambios (esto es útil para más adelante cuando haya que traer cambios nuevos, actualmente solo informará que Ya está actualizado)
+  - Traer los últimos cambios (esto es útil para más adelante cuando haya que traer cambios nuevos, actualmente solo informará que Ya está actualizado):
     `git pull`
     
     El código ha sido descargado. Continuar con la siguiente sección.
@@ -97,10 +97,14 @@ Para ejecutar, se puede correr las celdas de los distintos notebooks, se puede i
 
 Para ejecutar el código que realiza los gráficos de valor marginal, costo de oportunidad, funcional y curva de oferta, se puede utilizar el notebook `ALL IN ONE USAGE EXAMPLE Problema5tipo2.ipynb`.
 
-(Luego de modificar un archivo ".py", para ver los cambios reflejados desde un notebook se debe "Reiniciar kernel").
-La primera vez que se intente ejecutar, si es desde un ide, preguntará qué kernel se desea usar, elegir de la lista el correspondiente a ".venv".
+Aclaraciones:
+- (Luego de modificar un archivo ".py", para ver los cambios reflejados desde un notebook se debe "Reiniciar kernel").
+- La primera vez que se intente ejecutar, si es desde un ide, preguntará qué kernel se desea usar, elegir de la lista el correspondiente a ".venv".
+- El gráfico de costo de oportunidad vs un rhs ('disponibilidad'), muestra en el eje vertical distintas cosas según el caso:
+  - el costo de oportunidad del producto si el mismo no tenía demanda mínima,
+  - el llamado 'costo de oportunidad encubierto' (VM de la demanda mínima) si el producto tenía demanda mínima.
 
 # Traer cambios
 - si se usó la opción 1 para descargar este código:
-  `git pull
+  `git pull`
 - si se usó la popción 2: repetir el procedimiento de descarga.
